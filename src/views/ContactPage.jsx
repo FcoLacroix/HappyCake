@@ -3,7 +3,7 @@ import React from "react";
 const ContactPage = () => {
   return (
     <div className="container mt-4">
-      <h1 className="text-center" style={{ fontSize: '3rem', marginBottom: '2rem' }}>Cuéntanos, ¿En qué podemos ayudarte?</h1>
+      <h1 className="text-center" style={{ fontSize: '1.5rem', marginTop: '3rem' , marginBottom: '2rem' }}>Cuéntanos, ¿En qué podemos ayudarte?</h1>
       <form>
         <div className="mb-3">
           <label htmlFor="name" className="form-label">Nombre:</label>
@@ -32,12 +32,13 @@ const ContactPage = () => {
             id="message" 
             rows="5" 
             placeholder="Escribe tu mensaje aquí..."
+            style={{ opacity: '0.6' }}
           ></textarea>
         </div>
         <button 
           type="submit" 
           className="btn" 
-          style={{ backgroundColor: '#FCCEE3', color: '#000' }}
+          style={{ backgroundColor: '#8b2e58', color: ' aliceblue' }}
         >
           Enviar
         </button>
